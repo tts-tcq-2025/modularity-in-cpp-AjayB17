@@ -2,6 +2,8 @@
 #include <cassert>
 #include "TelCoColorCoder.h"
 
+using namespace TelCoColorCoder;
+
 int main() {
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
