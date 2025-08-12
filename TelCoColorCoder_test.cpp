@@ -3,6 +3,8 @@
 #include "TelCoColorCoder.h"
 #include "TelCoColorCoder_test.h"
 
+using namespace TelCoColorCoder;
+
 void testNumberToPair(int pairNumber, MajorColor expectedMajor, MinorColor expectedMinor) {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
     std::cout << "Got pair " << colorPair.ToString() << std::endl;
